@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>iGreenGo</title>
+
+  <link href="https://fonts.googleapis.com/css?family=Dancing+Script|Red+Hat+Text:400,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="CSS/styles.css">
+  <link rel="icon" href="images/favicon.ico">
+
+    <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+
+
+</head>
+
+<body>
+  <!-- <div class="spinner"></div> -->
+
+  <section id="main">
+    <div class="container-fluid">
+      <nav class="navbar fixed-top bg-dark navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="">iGreenGo</a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="user_info.html">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="">Download</a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form>
+
+        </div>
+      </nav>
+      <br /><br /><br /><br />
+      <div class="row">
+        <div class="col-lg-6">
+          <h1>A Step Towards Greener Future</h1>
+
+        </div>
+
+        <div class="col-lg-6">
+          <img class="title-image" src="images/tree_image.png" alt="tree_image-mockup">
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+
+  <section id="middle">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-6">
+          <!-- <img class="col-lg" src="images/aqi.png" alt="aqi not found"><br /> -->
+          <h1 class="vehicle_text">Check Your Vehicles Health.</h1>
+          <h3>Track your vehicle's health in real time.</h3>
+          <a class="aqi" href="https://www.aqi.in/">Check Real Time Air Quality</a><div class="spinner-grow" role="status">
+  <span class="sr-only">Loading...</span>
+</div>
+        </div>
+        <div class="col-lg-6">
+          <form>
+            <h1 class="sign_in" style="text-align: center">Sign In </h1>
+            <button type="button" class="btn btn-primary"><span><i class="fab fa-facebook-f"></i> Sign in with Facebook</span></button>
+            <button type="button" class="btn btn-danger"><i class="fab fa-google-plus-g"><span></i> Sign in with Google+</span></button>
+
+            <p style="text-align:center"> OR  </p>
+            <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required="" autofocus="">
+            <input type="password" id="inputPassword" class="form-control" placeholder="Password" required="">
+
+            <button class="btn btn-success btn-block" type="submit"><i class="fas fa-sign-in-alt"></i> Sign in</a></button>
+            <button class="btn btn-info btn-block" type="submit"><i class="fas fa-sign-in-alt"></i> Sign in Admin </button>
+            <a href="#" id="forgot_pswd">Forgot password?</a>
+
+
+              <p style="text-align:center">OR</p>
+
+              <input type="text" id="user-name" class="form-control" placeholder="Full name" required="" autofocus="">
+              <input type="veh_reg_no" id="user-veh_reg_no" class="form-control" placeholder="Vehicle Registration No." required autofocus="">
+              <input type="email" id="user-email" class="form-control" placeholder="Email address" required autofocus="">
+              <input type="password" id="user-pass" class="form-control" placeholder="Password" required autofocus="">
+              <input type="password" id="user-repeatpass" class="form-control" placeholder="Repeat Password" required autofocus="">
+
+              <button class="btn btn-primary btn-block" type="submit"><i class="fas fa-user-plus"></i> Sign Up</button>
+              <a href="#" id="cancel_signup"><i class="fas fa-angle-left"></i> Back</a>
+          </form>
+          <br>
+
+  </div>
+
+              </form>
+              <br />
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <section id="testimonials">
+    <div id="testimonials-carousel" class="carousel slide" data-ride="false">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <h4>"The only way forward, if we are going to improve the quality of the environment, is to get everybody involved."</h4>
+
+          <em>~Richard Rogers</em>
+        </div>
+        <div class="carousel-item">
+          <h4 class="testimonial-text">Climate change is a terrible problem, and it absolutely needs to be solved. It deserves to be a huge priority.</h4>
+
+          <em>~Bill Gates</em>
+        </div>
+
+      </div>
+      <a class="carousel-control-prev" href="#testimonials-carousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#testimonials-carousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+
+  </section>
+  <!-- Footer -->
+<footer class="last_section page-footer font-small cyan darken-3">
+
+<!-- Footer Elements -->
+<div class="container-fluid">
+
+  <!-- Grid row-->
+  <div class="row">
+
+    <!-- Grid column -->
+
+<div class="icons col-md-12 py-5">
+
+  <!-- Facebook -->
+        <a class="fb-ic">
+          <span><i class="fab fa-facebook-f fa-lg white-text mr-md-5 mr-3 fa-2x"> </i></span>
+        </a>
+        <!-- Twitter -->
+        <a class="tw-ic">
+          <span><a><i class="fab fa-twitter fa-lg white-text mr-md-5 mr-3 fa-2x"> </i></a></span>
+        </a>
+        <!-- Google +-->
+        <a class="gplus-ic">
+          <span><i class="fab fa-google-plus-g fa-lg white-text mr-md-5 mr-3 fa-2x"> </i></span>
+        </a>
+        <!--Linkedin -->
+        <a class="li-ic">
+          <span><i class="fab fa-linkedin-in fa-lg white-text mr-md-5 mr-3 fa-2x"> </i></span>
+        </a>
+        <!--Instagram-->
+        <a class="ins-ic">
+          <span><i class="fab fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x"> </i></span>
+        </a>
+      </div>
+    </div>
+    <!-- Grid column -->
+
+  </div>
+  <!-- Grid row-->
+
+</div>
+<!-- Footer Elements -->
+
+<!-- Copyright -->
+<div class="footer-copyright">© 2019 Copyright:
+  <a href="https://mdbootstrap.com/education/bootstrap/"> iGreenGo.com</a>
+</div>
+<!-- Copyright -->
+
+</footer>
+<!-- Footer -->
+
+</body>
+
+
+</html>
